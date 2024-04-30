@@ -13,14 +13,14 @@ const Header = () => {
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
               MERN Stack Developer
             </span>
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify">
+            <p className="my-2 max-w-xl py-6 font-light tracking-wide leading-loose text-justify">
               {HERO_CONTENT}
             </p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img src={profilePic} alt="profile" className="rounded-xl elevate"/>
+            <img src={profilePic} alt="profile" className="rounded-2xl" />
           </div>
         </div>
       </div>
