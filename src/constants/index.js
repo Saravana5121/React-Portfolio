@@ -12,29 +12,42 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication with elegant UI.",
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Express Js",
+      "MongoDB",
+    ],
   },
   {
     title: "Student Management Api",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing students details like basic CRUD (Create, Read, Update, Delete) operations API (Application programming interface) ",
+    technologies: ["Express Js", "Node Js", "Mongoose", "MongoDB"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
     title: "React Hooks Tutorial website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for learn about the React Hooks with basic examples still on process to insert many more hooks and little bit modification on UI",
+    technologies: ["React", "Tailwind CSS", "Vite", "React-Hooks"],
+  },
+  {
+    title: "Onboarding Element",
+    image: project4,
+    description:
+      "A project for Onboarding element in a mobile app using react-native",
+    technologies: ["React-native", "Expo", "Lottie-files", "React-Navigator"],
   },
 ];
 

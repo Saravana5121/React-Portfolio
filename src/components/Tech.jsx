@@ -1,11 +1,8 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
-import { SiRedux } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
+import { SiExpress, SiMongodb, SiMysql, SiRedux, SiTailwindcss } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
+// import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
