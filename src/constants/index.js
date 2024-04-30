@@ -13,20 +13,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication with elegant UI.",
-    technologies: [
-      "React",
-      "Tailwind CSS",
-      "Redux Toolkit",
-      "Express Js",
-      "MongoDB",
-    ],
+    technologies: ["React", "ReduxToolkit", "ExpressJs", "MongoDB"],
   },
   {
     title: "Student Management Api",
     image: project2,
     description:
       "An application for managing students details like basic CRUD (Create, Read, Update, Delete) operations API (Application programming interface) ",
-    technologies: ["Express Js", "Node Js", "Mongoose", "MongoDB"],
+    technologies: ["ExpressJs", "NodeJs", "Mongoose", "MongoDB"],
   },
   {
     title: "Portfolio Website",
@@ -40,14 +34,14 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for learn about the React Hooks with basic examples still on process to insert many more hooks and little bit modification on UI",
-    technologies: ["React", "Tailwind CSS", "Vite", "React-Hooks"],
+    technologies: ["React", "TailwindCSS", "Vite"],
   },
   {
     title: "Onboarding Element",
     image: project4,
     description:
       "A project for Onboarding element in a mobile app using react-native",
-    technologies: ["React-native", "Expo", "Lottie-files", "React-Navigator"],
+    technologies: ["React Native", "Expo", "Lottie-files"],
   },
 ];
 
